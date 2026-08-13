@@ -39,7 +39,15 @@
     &--active {
       color: var(--accent);
       border-color: var(--accent);
+      width: auto;
+      padding: 0 10px;
     }
+  }
+
+  &__filter-label {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
   }
 
   &__search {

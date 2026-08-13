@@ -21,9 +21,13 @@ export function FilterBar({ categories, active, query, onQueryChange, onChange }
           onClick={() => setShowModal(true)}
           aria-label="Filter by category"
         >
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-          </svg>
+          {active !== 'All' ? (
+            <span className="filter-bar__filter-label">{active}</span>
+          ) : (
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
+          )}
         </button>
         <input
           className="filter-bar__search"
