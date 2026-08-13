@@ -10,7 +10,7 @@
   &__inner {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 12px 20px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -26,7 +26,7 @@
     background: var(--surface);
     border: 1px solid var(--border-strong);
     border-radius: var(--radius);
-    padding: 7px 12px;
+    padding: 6px 10px;
     transition: border-color 0.15s;
 
     &::placeholder {
@@ -41,8 +41,9 @@
 
   &__chips {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     flex-wrap: wrap;
+    margin-left: auto;
   }
 
   &__chip {
@@ -50,7 +51,7 @@
     color: var(--text-2);
     border: 1px solid var(--border-strong);
     border-radius: var(--radius);
-    padding: 6px 12px;
+    padding: 5px 10px;
     transition:
       background 0.15s,
       color 0.15s,
