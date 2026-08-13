@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './FilterBar.scss'
 
 interface FilterBarProps {
@@ -9,9 +10,20 @@ interface FilterBarProps {
 }
 
 export function FilterBar({ categories, active, query, onQueryChange, onChange }: FilterBarProps) {
+  const [showModal, setShowModal] = useState(false)
+
   return (
     <nav className="filter-bar" aria-label="Filter builds by category">
       <div className="filter-bar__inner">
+        <button
+          className="filter-bar__filter-btn"
+          onClick={() => setShowModal(true)}
+          aria-label="Filter by category"
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          </svg>
+        </button>
         <input
           className="filter-bar__search"
           type="search"
@@ -33,6 +45,28 @@ export function FilterBar({ categories, active, query, onQueryChange, onChange }
           ))}
         </div>
       </div>
+
+      {showModal && (
+        <div className="filter-bar__overlay" onClick={() => setShowModal(false)}>
+          <div className="filter-bar__modal" onClick={(e) => e.stopPropagation()}>
+            <div className="filter-bar__modal-chips">
+              {categories.map((c) => (
+                <button
+                  key={c}
+                  className={`filter-bar__chip${c === active ? ' filter-bar__chip--active' : ''}`}
+                  onClick={() => {
+                    onChange(c)
+                    setShowModal(false)
+                  }}
+                  aria-pressed={c === active}
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   )
 }
