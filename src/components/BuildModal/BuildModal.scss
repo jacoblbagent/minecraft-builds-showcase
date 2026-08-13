@@ -12,8 +12,8 @@
   &__panel {
     position: relative;
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr;
+    gap: 16px;
     max-width: 940px;
     width: 100%;
     background: var(--surface);
@@ -47,19 +47,13 @@
     background: #0e1412;
     border-radius: var(--radius);
     overflow: hidden;
-    align-self: start;
-    width: 460px;
-    max-width: 48vw;
+    width: 100%;
   }
 
   &__img {
     width: 100%;
     height: auto;
     display: block;
-  }
-
-  &__info {
-    padding-right: 10px;
   }
 
   &__name {
