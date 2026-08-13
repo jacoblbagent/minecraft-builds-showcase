@@ -459,4 +459,216 @@ export const BUILDS: Build[] = [
     sourceUrl: SOURCE_RPS,
     image: '/minecraft-builds-showcase/images/cathedral.jpg',
   },
+  // ── Castles ──
+  {
+    id: 'museum',
+    name: 'Museum',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'A grand museum by MegRae — the perfect place to show off everything you\u2019ve collected. A tourist attraction that will draw attention on any server.',
+    creator: 'MegRae',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/museum.jpg',
+  },
+  {
+    id: 'famous-landmark',
+    name: 'Famous Landmark',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'Vexel Design\u2019s recreation of the Taj Mahal — real-world architectural splendour inside Minecraft. Inspired by landmarks known all over the world.',
+    creator: 'Vexel Design',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/famous-landmark.jpg',
+  },
+  {
+    id: 'mountain-base',
+    name: 'Mountain Base',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'A mountain-side outpost by Tentango, embedded into the cliff for sweeping views. Scout for miles from this elevated fortress.',
+    creator: 'Tentango',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/mountain-base.jpg',
+  },
+  // ── Towers ──
+  {
+    id: 'modern-skyscraper',
+    name: 'Modern Skyscraper',
+    category: 'Towers',
+    difficulty: 'Hard',
+    description:
+      'Alpine\u2019s realistic modern skyscraper — a sleek tower of glass and concrete that towers over everything around it.',
+    creator: 'Alpine',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/modern-skyscraper.jpg',
+  },
+  {
+    id: 'futuristic-skyscraper',
+    name: 'Futuristic Skyscraper',
+    category: 'Towers',
+    difficulty: 'Hard',
+    description:
+      'Episkninjaturtle\u2019s cyberpunk skyscraper — blue and silver metal rising high above the city. A sci-fi landmark fit for the future.',
+    creator: 'Episkninjaturtle',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/futuristic-skyscraper.jpg',
+  },
+  {
+    id: 'floating-base',
+    name: 'Floating Base',
+    category: 'Towers',
+    difficulty: 'Medium',
+    description:
+      'A floating island with a cottage by Rake — classic and versatile, suspended high above the landscape. Build it in Survival or scale up in Creative.',
+    creator: 'Rake',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/floating-base.jpg',
+  },
+  // ── Farms ──
+  {
+    id: 'nature-reserve',
+    name: 'Nature Reserve',
+    category: 'Farms',
+    difficulty: 'Medium',
+    description:
+      'A landscape-oriented nature reserve by Keralis. Fill it with foxes, horses, and animals of your choice for a truly beautiful area of land.',
+    creator: 'Keralis',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/nature-reserve.jpg',
+  },
+  {
+    id: 'hot-spring',
+    name: 'Hot Spring',
+    category: 'Farms',
+    difficulty: 'Medium',
+    description:
+      'A Japanese onsen — tranquil and idyllic with a clever rising steam effect. The perfect place to rest after a long time in Survival mode.',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/hot-spring.jpg',
+  },
+  {
+    id: 'cherry-blossom-garden',
+    name: 'Cherry Blossom Garden',
+    category: 'Farms',
+    difficulty: 'Medium',
+    description:
+      'A cosy Cherry Blossom gazebo by SweetMarble. Blossoms blowing in the breeze, pink trees overhead — wonderfully elegant atmosphere.',
+    creator: 'SweetMarble',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/cherry-blossom-garden.jpg',
+  },
+  // ── Special ──
+  {
+    id: 'statue',
+    name: 'Statue',
+    category: 'Special',
+    difficulty: 'Medium',
+    description:
+      'A phenomenal dragon statue by thebigbaron. Minecraft\u2019s stone blocks make for incredible sculpture — realistic or abstract, the choice is yours.',
+    creator: 'thebigbaron',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/statue.jpg',
+  },
+  {
+    id: 'aquarium',
+    name: 'Aquarium',
+    category: 'Special',
+    difficulty: 'Medium',
+    description:
+      'Blorg The Saint\u2019s magnificent glass aquarium — kelp, fish, and colourful sea life housed behind walls of glass. A living underwater gallery.',
+    creator: 'Blorg The Saint',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/aquarium.jpg',
+  },
+  {
+    id: 'nether-hub',
+    name: 'Nether Hub',
+    category: 'Special',
+    difficulty: 'Hard',
+    description:
+      'A grand Nether Hub by Kemit — safe fast travel through the Nether that looks fantastic. Grand architecture meets practical infrastructure.',
+    creator: 'Kemit',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/nether-hub.jpg',
+  },
+  {
+    id: 'storage-room',
+    name: 'Storage Room',
+    category: 'Special',
+    difficulty: 'Easy',
+    description:
+      'TheMythicalSausage\u2019s beautifully organised storage room — signs, item frames, and a lovely aesthetic make this the most practical build you can make.',
+    creator: 'TheMythicalSausage',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/storage-room.jpg',
+  },
+  {
+    id: 'trading-hall',
+    name: 'Trading Hall',
+    category: 'Special',
+    difficulty: 'Medium',
+    description:
+      'Nuvola MC\u2019s classical guild hall with a bustling market interior. Villagers in special stalls, zombie conversion tricks — the enterprising trader\u2019s dream.',
+    creator: 'Nuvola MC',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/trading-hall.jpg',
+  },
+  {
+    id: 'theme-park',
+    name: 'Theme Park',
+    category: 'Special',
+    difficulty: 'Hard',
+    description:
+      'Branzy\u2019s killer amusement park — a Ferris wheel, rollercoaster and carousel, each also a deadly trap. Build yours as nefarious or peaceful as you like.',
+    creator: 'Branzy',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/theme-park.jpg',
+  },
+  {
+    id: 'camper-van',
+    name: 'Camper Van',
+    category: 'Special',
+    difficulty: 'Easy',
+    description:
+      'IrieGenie\u2019s modern RV house — a tiny home on wheels with a cosy outdoor dining area. Build a whole campsite for a unique outdoor retreat.',
+    creator: 'IrieGenie',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/camper-van.jpg',
+  },
+  {
+    id: 'zoo',
+    name: 'Zoo',
+    category: 'Special',
+    difficulty: 'Medium',
+    description:
+      'BlueNerd\u2019s zoo island with enclosures for every animal — over 30 species at the time of creation. A project of impressive scope.',
+    creator: 'BlueNerd',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/zoo.jpg',
+  },
+  {
+    id: 'graveyard',
+    name: 'Graveyard',
+    category: 'Special',
+    difficulty: 'Medium',
+    description:
+      'ThaMango\u2019s eerie mausoleum set in a Pale Garden grove. Gothic flair, white foliage and eldritch mobs — too atmospheric to pass up.',
+    creator: 'ThaMango',
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/graveyard.jpg',
+  },
+  {
+    id: 't-rex-fossil',
+    name: 'T-Rex Fossil',
+    category: 'Special',
+    difficulty: 'Hard',
+    description:
+      'BURE\u2019s entire Tyrannosaurus Rex fossil specimen — museum-quality and built block by block. Just the tip of the prehistoric iceberg.',
+    creator: "BURE's Minecraft",
+    sourceUrl: SOURCE_RPS,
+    image: '/minecraft-builds-showcase/images/t-rex-fossil.jpg',
+  },
 ]
