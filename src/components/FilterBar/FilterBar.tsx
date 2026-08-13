@@ -17,7 +17,7 @@ export function FilterBar({ categories, active, query, onQueryChange, onChange }
     <nav className="filter-bar" aria-label="Filter builds by category">
       <div className="filter-bar__inner">
         <button
-          className="filter-bar__filter-btn"
+          className={`filter-bar__filter-btn${active !== 'All' ? ' filter-bar__filter-btn--active' : ''}`}
           onClick={() => setShowModal(true)}
           aria-label="Filter by category"
         >

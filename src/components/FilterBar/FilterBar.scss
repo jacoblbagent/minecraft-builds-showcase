@@ -35,6 +35,11 @@
       color: var(--text);
       border-color: var(--accent);
     }
+
+    &--active {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
   }
 
   &__search {
