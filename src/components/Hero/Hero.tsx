@@ -12,11 +12,6 @@ export function Hero() {
         <p className="hero__tagline">
           {BUILDS.length} builds sourced from the community — houses, castles, towers, farms and more.
         </p>
-        <div className="hero__stats">
-          <span className="hero__stat">{BUILDS.length} builds</span>
-          <span className="hero__stat">community sourced</span>
-          <span className="hero__stat">vanilla screenshots</span>
-        </div>
       </div>
     </header>
   )

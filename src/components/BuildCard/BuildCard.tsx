@@ -16,11 +16,6 @@ export function BuildCard({ build, onOpen }: BuildCardProps) {
           alt={build.name}
           loading="lazy"
         />
-        <span
-          className={`build-card__diff build-card__diff--${build.difficulty.toLowerCase()}`}
-        >
-          {build.difficulty}
-        </span>
       </div>
       <div className="build-card__meta">
         <h3 className="build-card__name">{build.name}</h3>

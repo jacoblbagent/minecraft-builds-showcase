@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 20px;
-    max-width: 780px;
+    max-width: 940px;
     width: 100%;
     background: var(--surface);
     border: 1px solid var(--border-strong);
@@ -48,8 +48,8 @@
     border-radius: var(--radius);
     overflow: hidden;
     align-self: start;
-    width: 320px;
-    max-width: 45vw;
+    width: 460px;
+    max-width: 48vw;
   }
 
   &__img {
