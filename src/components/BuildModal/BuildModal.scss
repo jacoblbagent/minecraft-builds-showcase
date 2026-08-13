@@ -18,7 +18,7 @@
     width: 100%;
     background: var(--surface);
     border: 1px solid var(--border-strong);
-    border-radius: 6px;
+    border-radius: var(--radius);
     padding: 18px;
     animation: modal-in 0.18s ease-out;
   }
