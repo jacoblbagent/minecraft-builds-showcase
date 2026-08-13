@@ -23,9 +23,12 @@ export function BuildModal({ build, onClose }: BuildModalProps) {
   return (
     <div className="modal" role="dialog" aria-modal="true" aria-label={build.name} onClick={onClose}>
       <div className="modal__panel" onClick={(e) => e.stopPropagation()}>
-        <button className="modal__close" onClick={onClose} aria-label="Close">
-          ×
-        </button>
+        <header className="modal__header">
+          <h2 className="modal__name">{build.name}</h2>
+          <button className="modal__close" onClick={onClose} aria-label="Close">
+            ×
+          </button>
+        </header>
         <div className="modal__shot">
           <img
             className="modal__img"
@@ -33,18 +36,15 @@ export function BuildModal({ build, onClose }: BuildModalProps) {
             alt={build.name}
           />
         </div>
-        <div className="modal__info">
-          <h2 className="modal__name">{build.name}</h2>
-          {build.creator && (
-            <p className="modal__credit">
-              Built by{' '}
-              <a href={build.sourceUrl} target="_blank" rel="noopener noreferrer">
-                {build.creator}
-              </a>
-              {' '}via Rock Paper Shotgun
-            </p>
-          )}
-        </div>
+        {build.creator && (
+          <p className="modal__credit">
+            Built by{' '}
+            <a href={build.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {build.creator}
+            </a>
+            {' '}via Rock Paper Shotgun
+          </p>
+        )}
       </div>
     </div>
   )

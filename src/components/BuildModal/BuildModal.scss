@@ -24,8 +24,13 @@
     animation: modal-in 0.18s ease-out;
   }
 
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   &__close {
-    justify-self: end;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -37,6 +42,7 @@
     border-radius: var(--radius);
     background: var(--surface-2);
     border: 1px solid var(--border-strong);
+    flex-shrink: 0;
 
     &:hover {
       background: var(--border-strong);
@@ -62,8 +68,6 @@
   &__name {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 10px;
-    padding-right: 26px;
   }
 
   &__credit {
