@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import './FilterBar.scss'
 
 interface FilterBarProps {
@@ -46,27 +47,29 @@ export function FilterBar({ categories, active, query, onQueryChange, onChange }
         </div>
       </div>
 
-      {showModal && (
-        <div className="filter-bar__overlay" onClick={() => setShowModal(false)}>
-          <div className="filter-bar__modal" onClick={(e) => e.stopPropagation()}>
-            <div className="filter-bar__modal-chips">
-              {categories.map((c) => (
-                <button
-                  key={c}
-                  className={`filter-bar__chip${c === active ? ' filter-bar__chip--active' : ''}`}
-                  onClick={() => {
-                    onChange(c)
-                    setShowModal(false)
-                  }}
-                  aria-pressed={c === active}
-                >
-                  {c}
-                </button>
-              ))}
+      {showModal &&
+        createPortal(
+          <div className="filter-bar__overlay" onClick={() => setShowModal(false)}>
+            <div className="filter-bar__modal" onClick={(e) => e.stopPropagation()}>
+              <div className="filter-bar__modal-chips">
+                {categories.map((c) => (
+                  <button
+                    key={c}
+                    className={`filter-bar__chip${c === active ? ' filter-bar__chip--active' : ''}`}
+                    onClick={() => {
+                      onChange(c)
+                      setShowModal(false)
+                    }}
+                    aria-pressed={c === active}
+                  >
+                    {c}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
-        </div>
-      )}
+          </div>,
+          document.body,
+        )}
     </nav>
   )
 }
