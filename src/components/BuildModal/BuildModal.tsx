@@ -37,9 +37,6 @@ export function BuildModal({ build, onClose }: BuildModalProps) {
           <h2 className="modal__name">{build.name}</h2>
           <div className="modal__tags">
             <span className="modal__tag">{build.category}</span>
-            <span className={`modal__tag modal__tag--${build.difficulty.toLowerCase()}`}>
-              {build.difficulty}
-            </span>
           </div>
           <p className="modal__desc">{build.description}</p>
           {build.creator && (
