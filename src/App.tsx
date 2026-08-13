@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react'
-import { Hero } from './components/Hero/Hero'
 import { FilterBar } from './components/FilterBar/FilterBar'
 import { BuildCard } from './components/BuildCard/BuildCard'
 import { BuildModal } from './components/BuildModal/BuildModal'
@@ -19,7 +18,6 @@ export default function App() {
 
   return (
     <>
-      <Hero />
       <main className="gallery" id="gallery">
         <FilterBar categories={[...CATEGORIES]} active={category} onChange={setCategory} />
         <div className="gallery__grid">
