@@ -10,7 +10,6 @@
   padding: 20px;
 
   &__panel {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
@@ -26,9 +25,7 @@
   }
 
   &__close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
+    justify-self: end;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -37,14 +34,12 @@
     height: 32px;
     display: grid;
     place-items: center;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.55);
-    backdrop-filter: blur(2px);
-    z-index: 2;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius);
+    background: var(--surface-2);
+    border: 1px solid var(--border-strong);
 
     &:hover {
-      background: rgba(0, 0, 0, 0.8);
+      background: var(--border-strong);
     }
   }
 
