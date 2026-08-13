@@ -1,5 +1,5 @@
 /**
- * Blockcraft build data — real Minecraft builds with screenshots,
+ * Minecraft Builds Showcase — real Minecraft builds with screenshots,
  * sourced from Rock Paper Shotgun's build idea guides:
  *   - "Things to build in Minecraft" https://www.rockpapershotgun.com/minecraft-build-ideas
  *   - "Minecraft house ideas" https://www.rockpapershotgun.com/minecraft-house-ideas
