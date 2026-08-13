@@ -88,6 +88,11 @@
       border-color: var(--accent);
       color: #0b1208;
       font-weight: 600;
+
+      &:hover {
+        color: #0b1208;
+        border-color: var(--accent);
+      }
     }
   }
 
