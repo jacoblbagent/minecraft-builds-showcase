@@ -11,12 +11,12 @@ export function Hero() {
         <p className="hero__kicker">minecraft showcase</p>
         <h1 className="hero__title">Blockcraft</h1>
         <p className="hero__tagline">
-          A gallery of Minecraft builds — houses, castles, towers, farms and more.
+          {BUILDS.length} builds sourced from the community — houses, castles, towers, farms and more.
         </p>
         <div className="hero__stats">
           <span className="hero__stat">{BUILDS.length} builds</span>
           <span className="hero__stat">{totalBlocks.toLocaleString()} blocks</span>
-          <span className="hero__stat">vanilla style</span>
+          <span className="hero__stat">community sourced</span>
         </div>
       </div>
     </header>

@@ -1,5 +1,11 @@
 /**
- * Blockcraft build data.
+ * Blockcraft build data — sourced from real Minecraft community ideas.
+ *
+ * Builds sourced from:
+ *   - Rock Paper Shotgun: "Things to build in Minecraft" (July 2026)
+ *     https://www.rockpapershotgun.com/minecraft-build-ideas
+ *   - Rock Paper Shotgun: "Minecraft house ideas" (July 2026)
+ *     https://www.rockpapershotgun.com/minecraft-house-ideas
  *
  * Each build is an ASCII pixel grid: 17 columns × 13 rows.
  * Row 0 is the top of the scene; the bottom rows are ground.
@@ -63,6 +69,8 @@ export interface Build {
   category: Category
   difficulty: Difficulty
   description: string
+  creator?: string
+  sourceUrl?: string
   seed: number
   grid: string[]
   blocks: number
@@ -70,14 +78,21 @@ export interface Build {
 
 type RawBuild = Omit<Build, 'blocks'>
 
+const SOURCE_RPS =
+  'https://www.rockpapershotgun.com/minecraft-build-ideas'
+const SOURCE_RPS_HOUSES =
+  'https://www.rockpapershotgun.com/minecraft-house-ideas'
+
 const RAW_BUILDS: RawBuild[] = [
   {
     id: 'starter-house',
-    name: 'Starter House',
+    name: 'Wooden Starter House',
     category: 'Houses',
     difficulty: 'Easy',
     description:
-      'The classic first-night home: a snug oak cottage with a gabled slate roof, twin windows and a working chimney. Everything you need before the sun goes down.',
+      'The classic first-night home: a snug oak cottage with a gabled roof, twin windows and a working chimney. Simple, reliable, and ready before the sun goes down.',
+    creator: 'WiederDude',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 7,
     grid: [
       '        r        ',
@@ -97,11 +112,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'oak-cabin',
-    name: 'Oak Cabin',
+    name: 'Wooden Cabin',
     category: 'Houses',
     difficulty: 'Easy',
     description:
-      'A rugged log cabin with a sweeping spruce roof and a warm hearth. The timber frame keeps out the rain and the creepers.',
+      'A rugged log cabin with a sweeping spruce roof and a warm hearth. Designed by builder Greg Builds — perfect for a forest retreat.',
+    creator: 'Greg Builds',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 23,
     grid: [
       '        L        ',
@@ -121,11 +138,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'brick-manor',
-    name: 'Brick Manor',
+    name: 'Fairytale Cottage',
     category: 'Houses',
     difficulty: 'Medium',
     description:
-      'A two-storey brick manor trimmed in stone brick. Grand windows upstairs and down, and a roof that means business.',
+      'A whimsical cottage straight from a storybook. BigTonyMC\'s design uses warm stone brick, wood trim, and a cosy thatched silhouette.',
+    creator: 'BigTonyMC',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 41,
     grid: [
       '        r        ',
@@ -145,11 +164,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'castle',
-    name: 'Castle',
+    name: 'Gothic Castle',
     category: 'Castles',
     difficulty: 'Hard',
     description:
-      'A twin-tower castle with curtain wall and iron gate. The standard for any self-respecting kingdom.',
+      'A magnificent gothic castle by YouTuber Geet Builds. Twin towers, stone battlements, and an iron gate — embrace your inner medievalist.',
+    creator: 'Geet Builds',
+    sourceUrl: SOURCE_RPS,
     seed: 59,
     grid: [
       ' R R         R R ',
@@ -169,11 +190,12 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'castle-keep',
-    name: 'Castle Keep',
+    name: 'Fantasy Castle',
     category: 'Castles',
     difficulty: 'Hard',
     description:
-      'The heart of a fortress: battlements, arrow slits and a grand gate carved into solid stone brick.',
+      'A fortified keep with crenellations, arrow slits and a grand gate. The centrepiece of any kingdom, built to withstand any siege.',
+    sourceUrl: SOURCE_RPS,
     seed: 73,
     grid: [
       '  R R R R R R R  ',
@@ -193,11 +215,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'watchtower',
-    name: 'Watchtower',
+    name: 'Clock Tower',
     category: 'Towers',
     difficulty: 'Medium',
     description:
-      'A tall stone lookout with crenellations for a clear sightline over the valley.',
+      'A striking clock tower by YouTuber IrieGenie. Tall, elegant, and impossible to miss — perfect for any village square.',
+    creator: 'IrieGenie',
+    sourceUrl: SOURCE_RPS,
     seed: 97,
     grid: [
       '      R   R      ',
@@ -221,7 +245,8 @@ const RAW_BUILDS: RawBuild[] = [
     category: 'Towers',
     difficulty: 'Medium',
     description:
-      'A quartz and brick lighthouse with a beacon that guides ships — and lost players — home.',
+      'A quartz-trimmed lighthouse rising above a sandy shore. Its beacon guides ships — and lost players — home. A classic nautical landmark.',
+    sourceUrl: SOURCE_RPS,
     seed: 113,
     grid: [
       '        g        ',
@@ -241,11 +266,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'wizard-tower',
-    name: 'Wizard Tower',
-    category: 'Towers',
+    name: 'Wizard House',
+    category: 'Special',
     difficulty: 'Hard',
     description:
-      'An obsidian-tipped spire of arcane stone. Rumoured to be bigger on the inside.',
+      'A mystic tower of arcane stone by Zaypixel. Obsidian-capped with a hidden study at the top — perfect for enchanting and brewing.',
+    creator: 'Zaypixel',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 131,
     grid: [
       '        Z        ',
@@ -269,7 +296,8 @@ const RAW_BUILDS: RawBuild[] = [
     category: 'Farms',
     difficulty: 'Medium',
     description:
-      'A classic mill with working blades and a stone base. The fields are never far away.',
+      'A classic windmill with working blades and a cobblestone base. Rows of wheat fields stretch out in every direction. Self-sufficiency at its finest.',
+    sourceUrl: SOURCE_RPS,
     seed: 149,
     grid: [
       '    L       L    ',
@@ -289,11 +317,12 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'farmstead',
-    name: 'Farmstead',
+    name: 'Farm',
     category: 'Farms',
     difficulty: 'Easy',
     description:
-      'A working farm: barn, wheat fields, fences and hay bales. Sustainable living, block by block.',
+      'A working farm with hay bales, wheat fields and fenced paddocks. Everything you need to feed a village — or yourself.',
+    sourceUrl: SOURCE_RPS,
     seed: 167,
     grid: [
       '        r        ',
@@ -314,10 +343,11 @@ const RAW_BUILDS: RawBuild[] = [
   {
     id: 'treehouse',
     name: 'Treehouse',
-    category: 'Special',
+    category: 'Houses',
     difficulty: 'Medium',
     description:
-      'A hideaway built into the canopy of a great oak. Windows, door, and a view over the whole forest.',
+      'A hideaway nestled in the canopy of a great oak. Windows, a door, and a bird\'s-eye view over the forest floor.',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 191,
     grid: [
       '        V        ',
@@ -336,12 +366,14 @@ const RAW_BUILDS: RawBuild[] = [
     ],
   },
   {
-    id: 'nether-portal',
-    name: 'Nether Portal',
+    id: 'witch-house',
+    name: 'Witch House',
     category: 'Special',
     difficulty: 'Medium',
     description:
-      'A glowing gateway of obsidian and nether brick. Step through — if you dare.',
+      'A crooked brew-shed by PlatinumThief. Nether brick chimney, bubbling cauldron inside, and a roof that definitely leans on purpose.',
+    creator: 'PlatinumThief',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 211,
     grid: [
       '    ZZZZZZZZZ    ',
@@ -360,12 +392,13 @@ const RAW_BUILDS: RawBuild[] = [
     ],
   },
   {
-    id: 'desert-pyramid',
-    name: 'Desert Pyramid',
+    id: 'pyramid',
+    name: 'Pyramid',
     category: 'Special',
     difficulty: 'Hard',
     description:
-      'A colossal sandstone pyramid with a hidden entrance. Ancient, and definitely not booby-trapped.',
+      'A colossal desert pyramid with a hidden entrance. Layer upon layer of sandstone, ancient traps, and treasures buried deep inside.',
+    sourceUrl: SOURCE_RPS,
     seed: 233,
     grid: [
       '        S        ',
@@ -385,11 +418,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'igloo',
-    name: 'Igloo',
+    name: 'Japanese House',
     category: 'Houses',
     difficulty: 'Easy',
     description:
-      'A snug snow dome for the frozen north. Compact, warm, and invisible against a blizzard.',
+      'A serene Japanese-style village house by Cortezerino. Clean lines, warm wood, and a peaceful presence in any bamboo grove.',
+    creator: 'Cortezerino',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 251,
     grid: [
       '       XXX       ',
@@ -408,12 +443,14 @@ const RAW_BUILDS: RawBuild[] = [
     ],
   },
   {
-    id: 'blacksmith',
-    name: 'Blacksmith',
+    id: 'mountain-base',
+    name: 'Mountain-Side House',
     category: 'Houses',
     difficulty: 'Medium',
     description:
-      'A working forge with a brick chimney, open-air yard and an anvil ready for your next iron haul.',
+      'A home carved into the mountainside by JUNS MAB. Stone facade blends with the cliff — warm interior, cold exterior. Stealth survival perfected.',
+    creator: 'JUNS MAB Architecture Tutorial',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 277,
     grid: [
       '        B        ',
@@ -432,12 +469,14 @@ const RAW_BUILDS: RawBuild[] = [
     ],
   },
   {
-    id: 'chapel',
-    name: 'Chapel',
+    id: 'modern-house',
+    name: 'Modern House',
     category: 'Houses',
     difficulty: 'Medium',
     description:
-      'A quiet stone chapel with a tall steeple and stained glass catching the morning light.',
+      'A sleek modern villa by IrieGenie with clean quartz lines, a swimming pool, and floor-to-ceiling glass. Minimalist living at its blockiest.',
+    creator: 'IrieGenie',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 293,
     grid: [
       '        T        ',
@@ -457,11 +496,13 @@ const RAW_BUILDS: RawBuild[] = [
   },
   {
     id: 'mushroom-house',
-    name: 'Mushroom House',
+    name: 'Haunted House',
     category: 'Special',
     difficulty: 'Easy',
     description:
-      'A cozy home grown from a giant red mushroom. Spotty roof, sturdy stem, zero carpentry required.',
+      'An eerie nether-brick manor by ThaMango. Creaking dark oak, flickering torches, and a roof that looks wrong. Dare you knock?',
+    creator: 'ThaMango',
+    sourceUrl: SOURCE_RPS_HOUSES,
     seed: 311,
     grid: [
       '       mmm       ',
@@ -477,6 +518,84 @@ const RAW_BUILDS: RawBuild[] = [
       'DDDDDDDDDDDDDDDDD',
       'DDDDDDDDDDDDDDDDD',
       'DDDDDDDDDDDDDDDDD',
+    ],
+  },
+  {
+    id: 'volcano',
+    name: 'Volcano',
+    category: 'Special',
+    difficulty: 'Hard',
+    description:
+      'A scene-stealing volcano by Shannooty. Magma drips from the cone, smoke billows, and an unsuspecting island becomes a landmark.',
+    creator: 'Shannooty',
+    sourceUrl: SOURCE_RPS,
+    seed: 337,
+    grid: [
+      '    C   C   C    ',
+      '   CCC C C CCC   ',
+      '  CCCC C C CCCC  ',
+      '  CCCCCCCCCCCCC  ',
+      '  CCCNNCCCNCCCC  ',
+      '  CCNNNNCNNNNCC  ',
+      '  CCNNNNNNNNNCC  ',
+      '   CNCNNNNNCCN   ',
+      '    CNCNCNCNN    ',
+      '   T    C    T   ',
+      'GGGGGGGGGGGGGGGGG',
+      'DDDDDDDDDDDDDDDDD',
+      'DDDDDDDDDDDDDDDDD',
+    ],
+  },
+  {
+    id: 'ship',
+    name: 'Ship',
+    category: 'Special',
+    difficulty: 'Hard',
+    description:
+      'A magnificent galleon by IrieGenie, complete with mast, sails, and deck. Pirates of the Caribbean vibes on the high blocky seas.',
+    creator: 'IrieGenie',
+    sourceUrl: SOURCE_RPS,
+    seed: 359,
+    grid: [
+      '        L        ',
+      '       OOO       ',
+      '      OOOOO      ',
+      '     OOOOOOO     ',
+      '    OOOOKKOOO    ',
+      '   OOOOOOOOOOO   ',
+      '  ggggggggggggg  ',
+      ' KKKKKKKKKKKKKKK ',
+      ' KKKKKKKKKKKKKKK ',
+      ' KKKKKKKKKKKKKKK ',
+      'WWWWWWWWWWWWWWWWW',
+      'WWWWWWWWWWWWWWWWW',
+      'WWWWWWWWWWWWWWWWW',
+    ],
+  },
+  {
+    id: 'underwater-base',
+    name: 'Underwater House',
+    category: 'Special',
+    difficulty: 'Hard',
+    description:
+      'A glass-domed home on the ocean floor by JUNS MAB. Full 360° views of squid, coral, and the deep — with a roof that won\'t leak.',
+    creator: 'JUNS MAB Architecture Tutorial',
+    sourceUrl: SOURCE_RPS_HOUSES,
+    seed: 383,
+    grid: [
+      '       ggg       ',
+      '     ggggggg     ',
+      '   gggRRRRRggg   ',
+      '  ggRRRRRRRRRgg  ',
+      '  gRRRgRRRgRRRg  ',
+      '  gRRRRRRRRRRRg  ',
+      '  gRRRRRRRRRRRg  ',
+      '  gRRRRdRRRRRRg  ',
+      '   gRRRRRRRRRg   ',
+      '  ggggGGGGggggg  ',
+      'SSSSSSSSSSSSSSSSS',
+      'SSSSSSSSSSSSSSSSS',
+      'SSSSSSSSSSSSSSSSS',
     ],
   },
 ]

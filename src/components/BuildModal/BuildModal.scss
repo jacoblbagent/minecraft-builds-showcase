@@ -92,7 +92,22 @@
   &__desc {
     font-size: 14px;
     color: var(--text-2);
+    margin-bottom: 6px;
+  }
+
+  &__credit {
+    font-size: 12px;
+    color: var(--muted);
     margin-bottom: 16px;
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 
   &__palette-title {

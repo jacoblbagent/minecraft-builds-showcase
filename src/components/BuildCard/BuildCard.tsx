@@ -21,6 +21,7 @@ export function BuildCard({ build, onOpen }: BuildCardProps) {
       <div className="build-card__meta">
         <h3 className="build-card__name">{build.name}</h3>
         <span className="build-card__blocks">{build.blocks} blocks</span>
+        {build.creator && <span className="build-card__creator">{build.creator}</span>}
       </div>
     </button>
   )

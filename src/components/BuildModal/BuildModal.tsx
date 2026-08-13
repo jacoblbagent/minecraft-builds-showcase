@@ -43,6 +43,15 @@ export function BuildModal({ build, onClose }: BuildModalProps) {
             <span className="modal__tag">{build.blocks} blocks</span>
           </div>
           <p className="modal__desc">{build.description}</p>
+          {build.creator && (
+            <p className="modal__credit">
+              by{' '}
+              <a href={build.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {build.creator}
+              </a>
+              {' '}via Rock Paper Shotgun
+            </p>
+          )}
           <div className="modal__palette">
             <h3 className="modal__palette-title">Built with</h3>
             <ul className="modal__palette-list">
