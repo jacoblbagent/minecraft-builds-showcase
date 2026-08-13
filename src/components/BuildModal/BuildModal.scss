@@ -100,7 +100,7 @@
 @media (max-width: 640px) {
   .modal {
     padding: 12px;
-    align-items: flex-end;
+    align-items: flex-start;
 
     &__panel {
       grid-template-columns: 1fr;
