@@ -25,6 +25,7 @@ export interface Build {
 
 const SOURCE_RPS = 'https://www.rockpapershotgun.com/minecraft-build-ideas'
 const SOURCE_RPS_HOUSES = 'https://www.rockpapershotgun.com/minecraft-house-ideas'
+const SOURCE_RPS_CASTLES = 'https://www.rockpapershotgun.com/minecraft-castle-ideas'
 
 export const BUILDS: Build[] = [
   {
@@ -492,6 +493,145 @@ export const BUILDS: Build[] = [
     creator: 'Tentango',
     sourceUrl: SOURCE_RPS,
     image: '/minecraft-builds-showcase/images/mountain-base.jpg',
+  },
+  {
+    id: 'disney-castle',
+    name: 'Disney Castle',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'The classic Disney castle from the intro cinematic — fairytale towers, flags and all. Build the iconic silhouette every movie starts with.',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/disney-castle.jpg',
+  },
+  {
+    id: 'arendelle-castle',
+    name: 'Arendelle Castle',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'The home of Anna and Elsa, recreated in blocks. An icy-blue royal castle from Frozen that\u2019s sure to be a timeless classic.',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/arendelle-castle.jpg',
+  },
+  {
+    id: 'medieval-castle',
+    name: 'Medieval Castle',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'BlueNerd Minecraft\u2019s perfect fantasy-world castle, with towers around every edge. Fend off mobs from any direction — even the Wither.',
+    creator: 'BlueNerd Minecraft',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/medieval-castle.jpg',
+  },
+  {
+    id: 'dracula-castle',
+    name: 'Dracula Castle',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'A terrifying castle by Trixyblox — moody, gothic, and perfect as a lair for your nefarious deeds. Strikes fear into everyone on your server.',
+    creator: 'Trixyblox',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/dracula-castle.jpg',
+  },
+  {
+    id: 'dark-cathedral',
+    name: 'Dark Cathedral',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'Lex The Builder\u2019s gothic cathedral with red spires touching the heavens and a huge hall. An ideal vampire-hunting base.',
+    creator: 'Lex The Builder',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/dark-cathedral.jpg',
+  },
+  {
+    id: 'hogwarts',
+    name: 'Hogwarts',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'Planet Dragonod\u2019s iconic wizarding school — 30 videos of blocks, with the Clock Tower, Transfiguration Courtyard and Dumbledore\u2019s Office recreated inside.',
+    creator: 'Planet Dragonod',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/hogwarts.jpg',
+  },
+  {
+    id: 'floating-castle',
+    name: 'Floating Castle',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'A full castle suspended on a floating island — the ultimate answer to choosing where to settle. Grandeur with a view of everything below.',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/floating-castle.jpg',
+  },
+  {
+    id: 'floating-castle-2',
+    name: 'Ultimate Floating Castle Base',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'Bradmall\u2019s alternative floating castle base — a more approachable take on sky living than the colossal castle above.',
+    creator: 'Bradmall',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/floating-castle-2.jpg',
+  },
+  {
+    id: 'island-fortress',
+    name: 'Island Fortress',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'BigTonyMC\u2019s island fortress — excluded from the rest of the world but grounded on solid land. A defensive stronghold with natural moats.',
+    creator: 'BigTonyMC',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/island-fortress.jpg',
+  },
+  {
+    id: 'dover-castle',
+    name: 'Dover Castle',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'English Heritage and Yogscast\u2019s spectacular recreation of the real Dover Castle — sprawling walls and winding pathways web through the courtyards.',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/dover-castle.jpg',
+  },
+  {
+    id: 'cherry-castle',
+    name: 'Cherry Castle',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'Stevler\u2019s elegant castle surrounded by pink cherry blossom trees. Peace, tranquility, and a breeze waiting to rustle the branches.',
+    creator: 'Stevler',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/cherry-castle.jpg',
+  },
+  {
+    id: 'waterfall-castle',
+    name: 'Waterfall Castle',
+    category: 'Castles',
+    difficulty: 'Hard',
+    description:
+      'A majestic castle by Geet Builds perched atop a rushing waterfall — a statement that goes a million steps beyond a simple moat.',
+    creator: 'Geet Builds',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/waterfall-castle.jpg',
+  },
+  {
+    id: 'mountain-castle',
+    name: 'Mountain Castle',
+    category: 'Castles',
+    difficulty: 'Medium',
+    description:
+      'Wombaat\u2019s snowcapped mountain castle, looming out over the landscape. Expect plenty of snow-clearing to get it looking right.',
+    creator: 'Wombaat',
+    sourceUrl: SOURCE_RPS_CASTLES,
+    image: '/minecraft-builds-showcase/images/mountain-castle.jpg',
   },
   // ── Towers ──
   {
