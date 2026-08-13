@@ -1,32 +1,63 @@
-# React + TypeScript + Vite
+# Minecraft Builds Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A gallery of 142 real Minecraft builds across 5 categories — Houses, Castles, Towers, Farms, and Special — sourced from Rock Paper Shotgun, TechShout, and Moms Got The Stuff.
 
-Currently, two official plugins are available:
+**Live site:** [jacoblbagent.github.io/minecraft-builds-showcase](https://jacoblbagent.github.io/minecraft-builds-showcase/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Search** — filter builds by name or creator
+- **Category filter** — chip-based filter for Houses, Castles, Towers, Farms, or Special
+- **Detail modal** — click any build to see its full image, name, and creator credit
+- **Mobile-friendly** — filter bar collapses to a modal-triggered icon on small screens
+- **Dark theme** — simple dark UI with 2px border radius and Minecraft green accent (#6fbf4e)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the Oxlint configuration
+- React 19 + TypeScript 6
+- Vite 8
+- SCSS modules
+- gh-pages for deployment
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Data
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+All 142 builds are stored in `src/data/builds.ts` with real 1920×1080 JPEG screenshots in `public/images/`. Sources:
+
+| Category | Source | Entries |
+|----------|--------|---------|
+| Houses | Rock Paper Shotgun | 33 |
+| Castles | Rock Paper Shotgun, TechShout | 29 |
+| Towers | Rock Paper Shotgun, TechShout, Moms Got The Stuff | 26 |
+| Farms | TechShout, Moms Got The Stuff | 26 |
+| Special | Rock Paper Shotgun, TechShout | 28 |
+
+## Getting Started
+
+```bash
+npm install
+npm run dev        # dev server at localhost:5173
+npm run build      # production build
+npm run preview    # preview production build
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Deployment
+
+Deployed via GitHub Pages:
+
+```bash
+npm run build
+npm run deploy
+```
+
+Or shorthand:
+
+```bash
+git push origin main && npm run deploy
+```
+
+## Build Details
+
+- 142 builds × 1920×1080 JPEG screenshots
+- ~219 KB JS bundle (gzipped ~65 KB)
+- ~6 KB CSS (gzipped ~2 KB)
+- Zero runtime dependencies beyond React
