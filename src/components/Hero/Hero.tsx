@@ -3,7 +3,6 @@ import { BUILDS } from '../../data/builds'
 import './Hero.scss'
 
 export function Hero() {
-  const totalBlocks = BUILDS.reduce((n, b) => n + b.blocks, 0)
   return (
     <header className="hero">
       <MountainScene />
@@ -15,8 +14,8 @@ export function Hero() {
         </p>
         <div className="hero__stats">
           <span className="hero__stat">{BUILDS.length} builds</span>
-          <span className="hero__stat">{totalBlocks.toLocaleString()} blocks</span>
           <span className="hero__stat">community sourced</span>
+          <span className="hero__stat">vanilla screenshots</span>
         </div>
       </div>
     </header>
