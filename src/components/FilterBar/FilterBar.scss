@@ -12,6 +12,35 @@
     margin: 0 auto;
     padding: 12px 20px;
     display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  &__search {
+    flex: 1 1 220px;
+    max-width: 320px;
+    font: inherit;
+    font-size: 13px;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    padding: 7px 12px;
+    transition: border-color 0.15s;
+
+    &::placeholder {
+      color: var(--muted);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+  }
+
+  &__chips {
+    display: flex;
     gap: 8px;
     flex-wrap: wrap;
   }
@@ -38,6 +67,19 @@
       border-color: var(--accent);
       color: #0b1208;
       font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .filter-bar {
+    &__inner {
+      padding: 10px 14px;
+    }
+
+    &__search {
+      flex: 1 1 100%;
+      max-width: none;
     }
   }
 }

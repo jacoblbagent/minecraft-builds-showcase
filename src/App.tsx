@@ -9,21 +9,40 @@ import './App.scss'
 
 export default function App() {
   const [category, setCategory] = useState('All')
+  const [query, setQuery] = useState('')
   const [selected, setSelected] = useState<Build | null>(null)
 
-  const filtered = useMemo(
-    () => (category === 'All' ? BUILDS : BUILDS.filter((b) => b.category === category)),
-    [category],
-  )
+  const filtered = useMemo(() => {
+    const q = query.toLowerCase().trim()
+    return BUILDS.filter((b) => {
+      if (category !== 'All' && b.category !== category) return false
+      if (q) {
+        const name = b.name.toLowerCase()
+        const creator = (b.creator ?? '').toLowerCase()
+        if (!name.includes(q) && !creator.includes(q)) return false
+      }
+      return true
+    })
+  }, [category, query])
 
   return (
     <>
       <main className="gallery" id="gallery">
-        <FilterBar categories={[...CATEGORIES]} active={category} onChange={setCategory} />
+        <FilterBar
+          categories={[...CATEGORIES]}
+          active={category}
+          query={query}
+          onQueryChange={setQuery}
+          onChange={setCategory}
+        />
         <div className="gallery__grid">
-          {filtered.map((b) => (
-            <BuildCard key={b.id} build={b} onOpen={() => setSelected(b)} />
-          ))}
+          {filtered.length === 0 ? (
+            <p className="gallery__empty">No builds match your search.</p>
+          ) : (
+            filtered.map((b) => (
+              <BuildCard key={b.id} build={b} onOpen={() => setSelected(b)} />
+            ))
+          )}
         </div>
       </main>
       <Footer />

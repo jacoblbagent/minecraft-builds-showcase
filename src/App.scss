@@ -65,6 +65,14 @@ img {
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 16px;
   }
+
+  &__empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--muted);
+    padding: 60px 0;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 640px) {

@@ -35,10 +35,6 @@ export function BuildModal({ build, onClose }: BuildModalProps) {
         </div>
         <div className="modal__info">
           <h2 className="modal__name">{build.name}</h2>
-          <div className="modal__tags">
-            <span className="modal__tag">{build.category}</span>
-          </div>
-          <p className="modal__desc">{build.description}</p>
           {build.creator && (
             <p className="modal__credit">
               Built by{' '}

@@ -69,27 +69,6 @@
     padding-right: 26px;
   }
 
-  &__tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 14px;
-  }
-
-  &__tag {
-    font-size: 12px;
-    color: var(--text-2);
-    border: 1px solid var(--border-strong);
-    border-radius: 3px;
-    padding: 3px 8px;
-  }
-
-  &__desc {
-    font-size: 14px;
-    color: var(--text-2);
-    margin-bottom: 16px;
-  }
-
   &__credit {
     font-size: 12px;
     color: var(--muted);
