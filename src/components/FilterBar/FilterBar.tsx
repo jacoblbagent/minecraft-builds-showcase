@@ -52,6 +52,7 @@ export function FilterBar({ categories, active, query, onQueryChange, onChange }
           <div className="filter-bar__overlay" onClick={() => setShowModal(false)}>
             <div className="filter-bar__modal" onClick={(e) => e.stopPropagation()}>
               <div className="filter-bar__modal-chips">
+                <h3 className="filter-bar__modal-heading">Filter by Type</h3>
                 {categories.map((c) => (
                   <button
                     key={c}
