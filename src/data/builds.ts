@@ -42,7 +42,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'WiederDude',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/starter-house.jpg',
+    image: '/images/starter-house.jpg',
   },
   {
     id: 'wooden-cabin',
@@ -51,7 +51,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Greg Builds',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/wooden-cabin.jpg',
+    image: '/images/wooden-cabin.jpg',
   },
   {
     id: 'fairytale-cottage',
@@ -60,7 +60,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BigTonyMC',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/fairytale-cottage.jpg',
+    image: '/images/fairytale-cottage.jpg',
   },
   {
     id: 'fantasy-mansion',
@@ -69,7 +69,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'BigTonyMC',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/fantasy-mansion.jpg',
+    image: '/images/fantasy-mansion.jpg',
   },
   {
     id: 'hobbit-hole',
@@ -77,7 +77,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/hobbit-hole.jpg',
+    image: '/images/hobbit-hole.jpg',
   },
   {
     id: 'gothic-castle',
@@ -86,7 +86,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Geet Builds',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/gothic-castle.jpg',
+    image: '/images/gothic-castle.jpg',
   },
   {
     id: 'fantasy-town',
@@ -94,7 +94,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/fantasy-town.jpg',
+    image: '/images/fantasy-town.jpg',
   },
   {
     id: 'elven-village',
@@ -103,7 +103,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'JINTUBE',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/elven-village.jpg',
+    image: '/images/elven-village.jpg',
   },
   {
     id: 'lighthouse',
@@ -111,7 +111,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/lighthouse.jpg',
+    image: '/images/lighthouse.jpg',
   },
   {
     id: 'clock-tower',
@@ -120,7 +120,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'IrieGenie',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/clock-tower.jpg',
+    image: '/images/clock-tower.jpg',
   },
   {
     id: 'wizard-house',
@@ -129,7 +129,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Zaypixel',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/wizard-house.jpg',
+    image: '/images/wizard-house.jpg',
   },
   {
     id: 'windmill',
@@ -138,7 +138,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Zaypixel',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/windmill.jpg',
+    image: '/images/windmill.jpg',
   },
   {
     id: 'farm',
@@ -146,7 +146,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/farm.jpg',
+    image: '/images/farm.jpg',
   },
   {
     id: 'farmhouse',
@@ -155,7 +155,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Zaypixel',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/farmhouse.jpg',
+    image: '/images/farmhouse.jpg',
   },
   {
     id: 'treehouse',
@@ -163,7 +163,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/treehouse.jpg',
+    image: '/images/treehouse.jpg',
   },
   {
     id: 'witch-house',
@@ -172,7 +172,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'PlatinumThief',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/witch-house.jpg',
+    image: '/images/witch-house.jpg',
   },
   {
     id: 'haunted-house',
@@ -181,7 +181,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'ThaMango',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/haunted-house.jpg',
+    image: '/images/haunted-house.jpg',
   },
   {
     id: 'pyramid',
@@ -189,7 +189,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/pyramid.jpg',
+    image: '/images/pyramid.jpg',
   },
   {
     id: 'volcano',
@@ -198,7 +198,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Shannooty',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/volcano.jpg',
+    image: '/images/volcano.jpg',
   },
   {
     id: 'ship',
@@ -207,7 +207,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'IrieGenie',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/ship.jpg',
+    image: '/images/ship.jpg',
   },
   {
     id: 'underwater-house',
@@ -216,7 +216,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'JUNS MAB Architecture Tutorial',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/underwater-house.jpg',
+    image: '/images/underwater-house.jpg',
   },
   {
     id: 'modern-house',
@@ -225,7 +225,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'IrieGenie',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/modern-house.jpg',
+    image: '/images/modern-house.jpg',
   },
   {
     id: 'mangrove-starter-house',
@@ -234,7 +234,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Folli',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/mangrove-starter-house.jpg',
+    image: '/images/mangrove-starter-house.jpg',
   },
   {
     id: 'simple-survival-house',
@@ -243,7 +243,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'SheepGG',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/simple-survival-house.jpg',
+    image: '/images/simple-survival-house.jpg',
   },
   {
     id: 'survival-starter-house',
@@ -252,7 +252,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Zaypixel',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/survival-starter-house.jpg',
+    image: '/images/survival-starter-house.jpg',
   },
   {
     id: 'multi-story-survival-house',
@@ -261,7 +261,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'JUNS MAB Architecture Tutorial',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/multi-story-survival-house.jpg',
+    image: '/images/multi-story-survival-house.jpg',
   },
   {
     id: 'large-survival-house',
@@ -270,7 +270,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Folli',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/large-survival-house.jpg',
+    image: '/images/large-survival-house.jpg',
   },
   {
     id: 'fantasy-house',
@@ -279,7 +279,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Minecraft Fantasy Builds',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/fantasy-house.jpg',
+    image: '/images/fantasy-house.jpg',
   },
   {
     id: 'suburban-house',
@@ -288,7 +288,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Rizzial',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/suburban-house.jpg',
+    image: '/images/suburban-house.jpg',
   },
   {
     id: 'japanese-house',
@@ -297,7 +297,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BlueBits',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/japanese-house.jpg',
+    image: '/images/japanese-house.jpg',
   },
   {
     id: 'japanese-village-house',
@@ -306,7 +306,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Cortezerino',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/japanese-village-house.jpg',
+    image: '/images/japanese-village-house.jpg',
   },
   {
     id: 'japanese-pagoda',
@@ -315,7 +315,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'SheepGG',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/japanese-pagoda.jpg',
+    image: '/images/japanese-pagoda.jpg',
   },
   {
     id: 'wood-stone-house',
@@ -324,7 +324,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'One Team',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/wood-stone-house.jpg',
+    image: '/images/wood-stone-house.jpg',
   },
   {
     id: 'stylish-wooden-house',
@@ -333,7 +333,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'Folli',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/stylish-wooden-house.jpg',
+    image: '/images/stylish-wooden-house.jpg',
   },
   {
     id: 'mountain-house',
@@ -342,7 +342,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'JUNS MAB Architecture Tutorial',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/mountain-house.jpg',
+    image: '/images/mountain-house.jpg',
   },
   {
     id: 'oak-treehouse',
@@ -351,7 +351,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Shock Frost',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/oak-treehouse.jpg',
+    image: '/images/oak-treehouse.jpg',
   },
   {
     id: 'jungle-treehouse',
@@ -360,7 +360,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'DiddiHD',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/jungle-treehouse.jpg',
+    image: '/images/jungle-treehouse.jpg',
   },
   {
     id: 'modern-treehouse',
@@ -369,7 +369,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: '6tenstudio',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/modern-treehouse.jpg',
+    image: '/images/modern-treehouse.jpg',
   },
   {
     id: 'bridge',
@@ -377,7 +377,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/bridge.jpg',
+    image: '/images/bridge.jpg',
   },
   {
     id: 'cathedral',
@@ -385,7 +385,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/cathedral.jpg',
+    image: '/images/cathedral.jpg',
   },
   {
     id: 'pirate-house',
@@ -393,7 +393,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/pirate-house.jpg',
+    image: '/images/pirate-house.jpg',
   },
   {
     id: 'ultimate-circle-underwater-house',
@@ -401,7 +401,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/ultimate-circle-underwater-house.jpg',
+    image: '/images/ultimate-circle-underwater-house.jpg',
   },
   {
     id: 'stylish-underwater-house',
@@ -409,7 +409,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/stylish-underwater-house.jpg',
+    image: '/images/stylish-underwater-house.jpg',
   },
   {
     id: 'modern-house-with-pool',
@@ -417,7 +417,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/modern-house-with-pool.jpg',
+    image: '/images/modern-house-with-pool.jpg',
   },
   {
     id: 'luxury-modern-house',
@@ -425,7 +425,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/luxury-modern-house.jpg',
+    image: '/images/luxury-modern-house.jpg',
   },
   {
     id: 'wooden-modern-house',
@@ -433,7 +433,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Easy',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/wooden-modern-house.jpg',
+    image: '/images/wooden-modern-house.jpg',
   },
   {
     id: 'large-modern-house',
@@ -441,7 +441,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/large-modern-house.jpg',
+    image: '/images/large-modern-house.jpg',
   },
   {
     id: '3-floor-glass-house',
@@ -449,7 +449,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/3-floor-glass-house.jpg',
+    image: '/images/3-floor-glass-house.jpg',
   },
   {
     id: 'large-japanese-house',
@@ -457,7 +457,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/large-japanese-house.jpg',
+    image: '/images/large-japanese-house.jpg',
   },
   {
     id: 'pale-oak-house',
@@ -465,7 +465,7 @@ export const BUILDS: Build[] = [
     category: 'Houses',
     difficulty: 'Easy',
     sourceUrl: SOURCE_RPS_HOUSES,
-    image: '/minecraft-builds-showcase/images/pale-oak-house.jpg',
+    image: '/images/pale-oak-house.jpg',
   },
   // ── Castles ──
   {
@@ -475,7 +475,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'MegRae',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/museum.jpg',
+    image: '/images/museum.jpg',
   },
   {
     id: 'famous-landmark',
@@ -484,7 +484,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Vexel Design',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/famous-landmark.jpg',
+    image: '/images/famous-landmark.jpg',
   },
   {
     id: 'mountain-base',
@@ -493,7 +493,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Tentango',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/mountain-base.jpg',
+    image: '/images/mountain-base.jpg',
   },
   {
     id: 'disney-castle',
@@ -501,7 +501,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/disney-castle.jpg',
+    image: '/images/disney-castle.jpg',
   },
   {
     id: 'arendelle-castle',
@@ -509,7 +509,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/arendelle-castle.jpg',
+    image: '/images/arendelle-castle.jpg',
   },
   {
     id: 'medieval-castle',
@@ -518,7 +518,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BlueNerd Minecraft',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/medieval-castle.jpg',
+    image: '/images/medieval-castle.jpg',
   },
   {
     id: 'dracula-castle',
@@ -527,7 +527,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Trixyblox',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/dracula-castle.jpg',
+    image: '/images/dracula-castle.jpg',
   },
   {
     id: 'dark-cathedral',
@@ -536,7 +536,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Lex The Builder',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/dark-cathedral.jpg',
+    image: '/images/dark-cathedral.jpg',
   },
   {
     id: 'hogwarts',
@@ -545,7 +545,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Planet Dragonod',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/hogwarts.jpg',
+    image: '/images/hogwarts.jpg',
   },
   {
     id: 'floating-castle',
@@ -553,7 +553,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/floating-castle.jpg',
+    image: '/images/floating-castle.jpg',
   },
   {
     id: 'floating-castle-2',
@@ -562,7 +562,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Bradmall',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/floating-castle-2.jpg',
+    image: '/images/floating-castle-2.jpg',
   },
   {
     id: 'island-fortress',
@@ -571,7 +571,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BigTonyMC',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/island-fortress.jpg',
+    image: '/images/island-fortress.jpg',
   },
   {
     id: 'dover-castle',
@@ -579,7 +579,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/dover-castle.jpg',
+    image: '/images/dover-castle.jpg',
   },
   {
     id: 'cherry-castle',
@@ -588,7 +588,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Stevler',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/cherry-castle.jpg',
+    image: '/images/cherry-castle.jpg',
   },
   {
     id: 'waterfall-castle',
@@ -597,7 +597,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Geet Builds',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/waterfall-castle.jpg',
+    image: '/images/waterfall-castle.jpg',
   },
   {
     id: 'mountain-castle',
@@ -606,7 +606,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Wombaat',
     sourceUrl: SOURCE_RPS_CASTLES,
-    image: '/minecraft-builds-showcase/images/mountain-castle.jpg',
+    image: '/images/mountain-castle.jpg',
   },
   {
     id: 'fairy-tale-castle',
@@ -614,7 +614,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/fairy-tale-castle.jpg',
+    image: '/images/fairy-tale-castle.jpg',
   },
   {
     id: 'small-stone-castle-moat',
@@ -622,7 +622,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/small-stone-castle-moat.jpg',
+    image: '/images/small-stone-castle-moat.jpg',
   },
   {
     id: 'castle-with-tower',
@@ -630,7 +630,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/castle-with-tower.jpg',
+    image: '/images/castle-with-tower.jpg',
   },
   {
     id: 'castle-with-moat',
@@ -638,7 +638,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/castle-with-moat.jpg',
+    image: '/images/castle-with-moat.jpg',
   },
   {
     id: 'dwarven-castle',
@@ -646,7 +646,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/dwarven-castle.jpg',
+    image: '/images/dwarven-castle.jpg',
   },
   {
     id: 'knights-castle',
@@ -654,7 +654,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/knights-castle.jpg',
+    image: '/images/knights-castle.jpg',
   },
   {
     id: 'cherry-blossom-castle',
@@ -662,7 +662,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/cherry-blossom-castle.jpg',
+    image: '/images/cherry-blossom-castle.jpg',
   },
   {
     id: 'feudal-lords-castle',
@@ -670,7 +670,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/feudal-lords-castle.jpg',
+    image: '/images/feudal-lords-castle.jpg',
   },
   {
     id: 'osaka-castle',
@@ -678,7 +678,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/osaka-castle.jpg',
+    image: '/images/osaka-castle.jpg',
   },
   {
     id: 'gothic-castle-on-a-hill',
@@ -686,7 +686,7 @@ export const BUILDS: Build[] = [
     category: 'Castles',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/gothic-castle-on-a-hill.jpg',
+    image: '/images/gothic-castle-on-a-hill.jpg',
   },
   // ── Towers ──
   {
@@ -696,7 +696,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Alpine',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/modern-skyscraper.jpg',
+    image: '/images/modern-skyscraper.jpg',
   },
   {
     id: 'futuristic-skyscraper',
@@ -705,7 +705,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Episkninjaturtle',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/futuristic-skyscraper.jpg',
+    image: '/images/futuristic-skyscraper.jpg',
   },
   {
     id: 'floating-base',
@@ -714,7 +714,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Rake',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/floating-base.jpg',
+    image: '/images/floating-base.jpg',
   },
   {
     id: 'medieval-tower',
@@ -723,7 +723,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'MythicalSausage',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/medieval-tower.jpg',
+    image: '/images/medieval-tower.jpg',
   },
   {
     id: 'survival-tower',
@@ -732,7 +732,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'ItsMarloe',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/survival-tower.jpg',
+    image: '/images/survival-tower.jpg',
   },
   {
     id: 'big-ben',
@@ -741,7 +741,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'N11cK',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/big-ben.jpg',
+    image: '/images/big-ben.jpg',
   },
   {
     id: 'leaning-tower-of-pisa',
@@ -750,7 +750,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'The Error Gamer',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/leaning-tower-of-pisa.jpg',
+    image: '/images/leaning-tower-of-pisa.jpg',
   },
   {
     id: 'eiffel-tower',
@@ -759,7 +759,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'The Error Gamer',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/eiffel-tower.jpg',
+    image: '/images/eiffel-tower.jpg',
   },
   {
     id: 'avengers-tower',
@@ -768,7 +768,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'TSMC - Minecraft',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/avengers-tower.jpg',
+    image: '/images/avengers-tower.jpg',
   },
   {
     id: 'castle-tower',
@@ -777,7 +777,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Welsknight Gaming',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/castle-tower.jpg',
+    image: '/images/castle-tower.jpg',
   },
   {
     id: 'paw-patrol-headquarters',
@@ -786,7 +786,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'TSMC - Minecraft',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/paw-patrol-headquarters.jpg',
+    image: '/images/paw-patrol-headquarters.jpg',
   },
   {
     id: 'simple-tower',
@@ -795,7 +795,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'GeminiTay',
     sourceUrl: SOURCE_RPS_TOWERS,
-    image: '/minecraft-builds-showcase/images/simple-tower.jpg',
+    image: '/images/simple-tower.jpg',
   },
   {
     id: 'firewatch-tower',
@@ -803,7 +803,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_MOMS_MEDIEVAL,
-    image: '/minecraft-builds-showcase/images/firewatch-tower.jpg',
+    image: '/images/firewatch-tower.jpg',
   },
   {
     id: 'gate-tower',
@@ -811,7 +811,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_MOMS_MEDIEVAL,
-    image: '/minecraft-builds-showcase/images/gate-tower.jpg',
+    image: '/images/gate-tower.jpg',
   },
   {
     id: 'castle-wall',
@@ -819,7 +819,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Easy',
     sourceUrl: SOURCE_MOMS_MEDIEVAL,
-    image: '/minecraft-builds-showcase/images/castle-wall.jpg',
+    image: '/images/castle-wall.jpg',
   },
   {
     id: 'orthanc-tower',
@@ -827,7 +827,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_BUILDS,
-    image: '/minecraft-builds-showcase/images/orthanc-tower.jpg',
+    image: '/images/orthanc-tower.jpg',
   },
   {
     id: 'wizard-tower',
@@ -835,7 +835,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/wizard-tower-castle.jpg',
+    image: '/images/wizard-tower-castle.jpg',
   },
   {
     id: 'cherry-blossom-tower-house',
@@ -843,7 +843,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CHERRY,
-    image: '/minecraft-builds-showcase/images/cherry-blossom-tower-house.jpg',
+    image: '/images/cherry-blossom-tower-house.jpg',
   },
   {
     id: 'cherry-blossom-pagoda',
@@ -851,7 +851,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CHERRY,
-    image: '/minecraft-builds-showcase/images/cherry-blossom-pagoda.jpg',
+    image: '/images/cherry-blossom-pagoda.jpg',
   },
   {
     id: 'water-tower',
@@ -859,7 +859,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Easy',
     sourceUrl: SOURCE_MOMS_FARM,
-    image: '/minecraft-builds-showcase/images/water-tower.jpg',
+    image: '/images/water-tower.jpg',
   },
   {
     id: 'watchtower-castle',
@@ -867,7 +867,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/watchtower-castle.jpg',
+    image: '/images/watchtower-castle.jpg',
   },
   {
     id: 'fortified-outpost',
@@ -875,7 +875,7 @@ export const BUILDS: Build[] = [
     category: 'Towers',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_CASTLE,
-    image: '/minecraft-builds-showcase/images/fortified-outpost.jpg',
+    image: '/images/fortified-outpost.jpg',
   },
   {
     id: 'tall-house',
@@ -884,7 +884,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'quickcrete.mc',
     sourceUrl: SOURCE_MOMS_MEDIEVAL,
-    image: '/minecraft-builds-showcase/images/tall-house.jpg',
+    image: '/images/tall-house.jpg',
   },
   // ── Farms ──
   {
@@ -894,7 +894,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Keralis',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/nature-reserve.jpg',
+    image: '/images/nature-reserve.jpg',
   },
   {
     id: 'hot-spring',
@@ -902,7 +902,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/hot-spring.jpg',
+    image: '/images/hot-spring.jpg',
   },
   {
     id: 'cherry-blossom-garden',
@@ -911,7 +911,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'SweetMarble',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/cherry-blossom-garden.jpg',
+    image: '/images/cherry-blossom-garden.jpg',
   },
   {
     id: 'red-barn-with-silo',
@@ -919,7 +919,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/red-barn-with-silo.jpg',
+    image: '/images/red-barn-with-silo.jpg',
   },
   {
     id: 'japanese-barn',
@@ -927,7 +927,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/japanese-barn.jpg',
+    image: '/images/japanese-barn.jpg',
   },
   {
     id: 'cottagecore-barn',
@@ -936,7 +936,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Croissant Cat',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/cottagecore-barn.jpg',
+    image: '/images/cottagecore-barn.jpg',
   },
   {
     id: 'large-medieval-barn',
@@ -945,7 +945,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Ei Natsu',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/large-medieval-barn.jpg',
+    image: '/images/large-medieval-barn.jpg',
   },
   {
     id: 'fairycore-cherry-blossom-barn',
@@ -953,7 +953,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/fairycore-cherry-blossom-barn.jpg',
+    image: '/images/fairycore-cherry-blossom-barn.jpg',
   },
   {
     id: 'rustic-barn',
@@ -961,7 +961,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/rustic-barn.jpg',
+    image: '/images/rustic-barn.jpg',
   },
   {
     id: 'spruce-barn',
@@ -969,7 +969,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/spruce-barn.jpg',
+    image: '/images/spruce-barn.jpg',
   },
   {
     id: 'cow-barn',
@@ -977,7 +977,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/cow-barn.jpg',
+    image: '/images/cow-barn.jpg',
   },
   {
     id: 'grain-mill',
@@ -985,7 +985,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_MOMS_FARM,
-    image: '/minecraft-builds-showcase/images/grain-mill.jpg',
+    image: '/images/grain-mill.jpg',
   },
   {
     id: 'beehive',
@@ -993,7 +993,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_MOMS_FARM,
-    image: '/minecraft-builds-showcase/images/beehive.jpg',
+    image: '/images/beehive.jpg',
   },
   {
     id: 'easy-barn',
@@ -1001,7 +1001,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/easy-barn.jpg',
+    image: '/images/easy-barn.jpg',
   },
   {
     id: 'large-animal-barn',
@@ -1009,7 +1009,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/large-animal-barn.jpg',
+    image: '/images/large-animal-barn.jpg',
   },
   {
     id: 'aesthetic-barn',
@@ -1017,7 +1017,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/aesthetic-barn.jpg',
+    image: '/images/aesthetic-barn.jpg',
   },
   {
     id: 'barn-granary-silo',
@@ -1025,7 +1025,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/barn-granary-silo.jpg',
+    image: '/images/barn-granary-silo.jpg',
   },
   {
     id: 'simple-barn',
@@ -1033,7 +1033,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/simple-barn.jpg',
+    image: '/images/simple-barn.jpg',
   },
   {
     id: 'animal-house-egg-farm',
@@ -1041,7 +1041,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/animal-house-egg-farm.jpg',
+    image: '/images/animal-house-egg-farm.jpg',
   },
   {
     id: 'cute-mini-barn',
@@ -1049,7 +1049,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/cute-mini-barn.jpg',
+    image: '/images/cute-mini-barn.jpg',
   },
   {
     id: 'animal-barn-grazing',
@@ -1057,7 +1057,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/animal-barn-grazing.jpg',
+    image: '/images/animal-barn-grazing.jpg',
   },
   {
     id: 'large-aesthetic-barn',
@@ -1065,7 +1065,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Medium',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/large-aesthetic-barn.jpg',
+    image: '/images/large-aesthetic-barn.jpg',
   },
   {
     id: 'simple-survival-barn',
@@ -1073,7 +1073,7 @@ export const BUILDS: Build[] = [
     category: 'Farms',
     difficulty: 'Easy',
     sourceUrl: SOURCE_TECHSHOUT_BARN,
-    image: '/minecraft-builds-showcase/images/simple-survival-barn.jpg',
+    image: '/images/simple-survival-barn.jpg',
   },
   // ── Special ──
   {
@@ -1083,7 +1083,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'thebigbaron',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/statue.jpg',
+    image: '/images/statue.jpg',
   },
   {
     id: 'aquarium',
@@ -1092,7 +1092,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Blorg The Saint',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/aquarium.jpg',
+    image: '/images/aquarium.jpg',
   },
   {
     id: 'nether-hub',
@@ -1101,7 +1101,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Kemit',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/nether-hub.jpg',
+    image: '/images/nether-hub.jpg',
   },
   {
     id: 'storage-room',
@@ -1110,7 +1110,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'TheMythicalSausage',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/storage-room.jpg',
+    image: '/images/storage-room.jpg',
   },
   {
     id: 'trading-hall',
@@ -1119,7 +1119,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Nuvola MC',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/trading-hall.jpg',
+    image: '/images/trading-hall.jpg',
   },
   {
     id: 'theme-park',
@@ -1128,7 +1128,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Branzy',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/theme-park.jpg',
+    image: '/images/theme-park.jpg',
   },
   {
     id: 'camper-van',
@@ -1137,7 +1137,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'IrieGenie',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/camper-van.jpg',
+    image: '/images/camper-van.jpg',
   },
   {
     id: 'zoo',
@@ -1146,7 +1146,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BlueNerd',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/zoo.jpg',
+    image: '/images/zoo.jpg',
   },
   {
     id: 'graveyard',
@@ -1155,7 +1155,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'ThaMango',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/graveyard.jpg',
+    image: '/images/graveyard.jpg',
   },
   {
     id: 't-rex-fossil',
@@ -1164,7 +1164,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: "BURE's Minecraft",
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/t-rex-fossil.jpg',
+    image: '/images/t-rex-fossil.jpg',
   },
   {
     id: 'underground-base',
@@ -1172,7 +1172,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Easy',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/underground-base.jpg',
+    image: '/images/underground-base.jpg',
   },
   {
     id: 'underwater-base',
@@ -1180,7 +1180,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/underwater-base.jpg',
+    image: '/images/underwater-base.jpg',
   },
   {
     id: 'pixel-art',
@@ -1188,7 +1188,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Medium',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/pixel-art.jpg',
+    image: '/images/pixel-art.jpg',
   },
   {
     id: 'pvp-map',
@@ -1196,7 +1196,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/pvp-map.jpg',
+    image: '/images/pvp-map.jpg',
   },
   {
     id: 'pop-culture',
@@ -1204,7 +1204,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Hard',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/pop-culture.jpg',
+    image: '/images/pop-culture.jpg',
   },
   {
     id: 'houseboat',
@@ -1213,7 +1213,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Josillia',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/houseboat.jpg',
+    image: '/images/houseboat.jpg',
   },
   {
     id: 'airplane',
@@ -1222,7 +1222,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Aeroteam',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/airplane.jpg',
+    image: '/images/airplane.jpg',
   },
   {
     id: 'train',
@@ -1231,7 +1231,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'Jmox',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/train.jpg',
+    image: '/images/train.jpg',
   },
   {
     id: 'mech',
@@ -1240,7 +1240,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'Phantom_Fox_Blue',
     sourceUrl: SOURCE_RPS,
-    image: '/minecraft-builds-showcase/images/mech.jpg',
+    image: '/images/mech.jpg',
   },
   {
     id: 'space-shuttle',
@@ -1248,7 +1248,7 @@ export const BUILDS: Build[] = [
     category: 'Special',
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_BUILDS,
-    image: '/minecraft-builds-showcase/images/space-shuttle.jpg',
+    image: '/images/space-shuttle.jpg',
   },
   {
     id: 'medieval-castle-house-layout',
@@ -1257,7 +1257,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BuildGuides',
     sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/minecraft-builds-showcase/images/bg_medieval_castle_house-layout.jpg',
+    image: '/images/bg_medieval_castle_house-layout.jpg',
   },
   {
     id: 'cozy-barrel-house-layout',
@@ -1266,7 +1266,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Easy',
     creator: 'BuildGuides',
     sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/minecraft-builds-showcase/images/bg_cozy_barrel-layout.jpg',
+    image: '/images/bg_cozy_barrel-layout.jpg',
   },
   {
     id: 'medieval-castle-layout',
@@ -1275,7 +1275,7 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     creator: 'BuildGuides',
     sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/minecraft-builds-showcase/images/bg_medieval_castle-layout.jpg',
+    image: '/images/bg_medieval_castle-layout.jpg',
   },
   {
     id: 'small-watchtower-layout',
@@ -1284,6 +1284,6 @@ export const BUILDS: Build[] = [
     difficulty: 'Medium',
     creator: 'BuildGuides',
     sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/minecraft-builds-showcase/images/bg_watchtower-layout.jpg',
+    image: '/images/bg_watchtower-layout.jpg',
   },
 ]
