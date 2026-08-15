@@ -1,9 +1,14 @@
 /**
- * Home Layouts Showcase — floor plans and home layouts for inspiration,
- * sourced from real home design websites.
+ * Minecraft Builds Showcase — real Minecraft builds with screenshots,
+ * sourced from Rock Paper Shotgun's build idea guides:
+ *   - "Things to build in Minecraft" https://www.rockpapershotgun.com/minecraft-build-ideas
+ *   - "Minecraft house ideas" https://www.rockpapershotgun.com/minecraft-house-ideas
+ *
+ * Screenshots are community screenshots of each build, credited to the
+ * original builders.
  */
 
-export const CATEGORIES = ['All', 'Houses', 'Castles', 'Towers', 'Farms', 'Special', 'Layouts'] as const
+export const CATEGORIES = ['All', 'Houses', 'Castles', 'Towers', 'Farms', 'Special'] as const
 export type Category = (typeof CATEGORIES)[number]
 export type Difficulty = 'Easy' | 'Medium' | 'Hard'
 
@@ -1243,78 +1248,5 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_BUILDS,
     image: '/images/space-shuttle.jpg',
-  },
-  // ── Layouts ──
-  {
-    id: 'floorplan-sample',
-    name: 'Sample Floorplan',
-    category: 'Layouts',
-    difficulty: 'Easy',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Sample_Floorplan.jpg',
-    image: '/images/floorplan-sample.jpg',
-  },
-  {
-    id: 'floorplan-harris',
-    name: '1920 Harris Homes Plan M1022',
-    category: 'Layouts',
-    difficulty: 'Medium',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1920_Harris_Homes_plan_M1022.jpg',
-    image: '/images/floorplan-harris.jpg',
-  },
-  {
-    id: 'floorplan-bungalow',
-    name: '2 BHK Bungalow Floor Plan',
-    category: 'Layouts',
-    difficulty: 'Medium',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2_bhk_Bungalow_floor_plan.jpg',
-    image: '/images/floorplan-bungalow.jpg',
-  },
-  {
-    id: 'floorplan-30by35',
-    name: '30×35 Home Plan',
-    category: 'Layouts',
-    difficulty: 'Medium',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:30BY35_home_plan_by_ER._AYUSH_TOMAR_9997233546.jpg',
-    image: '/images/floorplan-30by35.jpg',
-  },
-  {
-    id: 'floorplan-housing',
-    name: 'Housing Plan',
-    category: 'Layouts',
-    difficulty: 'Easy',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:A_depiction_of_housing_plan.JPG',
-    image: '/images/floorplan-housing.jpg',
-  },
-  {
-    id: 'floorplan-queen-st',
-    name: '54 Queen Street Floor Plans',
-    category: 'Layouts',
-    difficulty: 'Hard',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:54_Queen_Street_floor_plans.jpg',
-    image: '/images/floorplan-queen-st.jpg',
-  },
-  {
-    id: 'floorplan-central-st',
-    name: '178 Central Street Somerville MA',
-    category: 'Layouts',
-    difficulty: 'Hard',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:178_Central_Street_Somerville_MA.png',
-    image: '/images/floorplan-central-st.jpg',
-  },
-  {
-    id: 'floorplan-putnam',
-    name: 'Putnam House Floor Plans',
-    category: 'Layouts',
-    difficulty: 'Hard',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Putnam_House_-_floor_plans.jpg',
-    image: '/images/floorplan-putnam.jpg',
-  },
-  {
-    id: 'floorplan-burlington',
-    name: '7 Burlington Gardens Plans (1825)',
-    category: 'Layouts',
-    difficulty: 'Hard',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:7_Burlington_Gardens_(UxbridgeQueensberry_House)_plans1825.jpg',
-    image: '/images/floorplan-burlington.jpg',
   },
 ]
