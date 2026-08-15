@@ -8,7 +8,7 @@
  * original builders.
  */
 
-export const CATEGORIES = ['All', 'Houses', 'Castles', 'Towers', 'Farms', 'Special'] as const
+export const CATEGORIES = ['All', 'Houses', 'Castles', 'Towers', 'Farms', 'Special', 'Layouts'] as const
 export type Category = (typeof CATEGORIES)[number]
 export type Difficulty = 'Easy' | 'Medium' | 'Hard'
 
@@ -32,6 +32,7 @@ const SOURCE_TECHSHOUT_BUILDS = 'https://www.techshout.com/best-minecraft-buildi
 const SOURCE_TECHSHOUT_CHERRY = 'https://www.techshout.com/minecraft-cherry-blossom-houses/'
 const SOURCE_MOMS_FARM = 'https://momsgotthestuff.com/minecraft-farm-build-ideas/'
 const SOURCE_MOMS_MEDIEVAL = 'https://momsgotthestuff.com/minecraft-medieval-build-ideas-and-tutorials/'
+const SOURCE_BUILDGUIDES = 'https://buildguides.net/'
 
 export const BUILDS: Build[] = [
   {
@@ -1248,5 +1249,41 @@ export const BUILDS: Build[] = [
     difficulty: 'Hard',
     sourceUrl: SOURCE_TECHSHOUT_BUILDS,
     image: '/minecraft-builds-showcase/images/space-shuttle.jpg',
+  },
+  {
+    id: 'medieval-castle-house-layout',
+    name: 'Medieval Castle House',
+    category: 'Layouts',
+    difficulty: 'Medium',
+    creator: 'BuildGuides',
+    sourceUrl: SOURCE_BUILDGUIDES,
+    image: '/minecraft-builds-showcase/images/bg_medieval_castle_house-layout.jpg',
+  },
+  {
+    id: 'cozy-barrel-house-layout',
+    name: 'Cozy Barrel House',
+    category: 'Layouts',
+    difficulty: 'Easy',
+    creator: 'BuildGuides',
+    sourceUrl: SOURCE_BUILDGUIDES,
+    image: '/minecraft-builds-showcase/images/bg_cozy_barrel-layout.jpg',
+  },
+  {
+    id: 'medieval-castle-layout',
+    name: 'Medieval Castle',
+    category: 'Layouts',
+    difficulty: 'Hard',
+    creator: 'BuildGuides',
+    sourceUrl: SOURCE_BUILDGUIDES,
+    image: '/minecraft-builds-showcase/images/bg_medieval_castle-layout.jpg',
+  },
+  {
+    id: 'small-watchtower-layout',
+    name: 'Small Watchtower',
+    category: 'Layouts',
+    difficulty: 'Medium',
+    creator: 'BuildGuides',
+    sourceUrl: SOURCE_BUILDGUIDES,
+    image: '/minecraft-builds-showcase/images/bg_watchtower-layout.jpg',
   },
 ]
