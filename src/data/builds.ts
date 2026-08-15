@@ -32,7 +32,6 @@ const SOURCE_TECHSHOUT_BUILDS = 'https://www.techshout.com/best-minecraft-buildi
 const SOURCE_TECHSHOUT_CHERRY = 'https://www.techshout.com/minecraft-cherry-blossom-houses/'
 const SOURCE_MOMS_FARM = 'https://momsgotthestuff.com/minecraft-farm-build-ideas/'
 const SOURCE_MOMS_MEDIEVAL = 'https://momsgotthestuff.com/minecraft-medieval-build-ideas-and-tutorials/'
-const SOURCE_BUILDGUIDES = 'https://buildguides.net/'
 
 export const BUILDS: Build[] = [
   {
@@ -1251,39 +1250,51 @@ export const BUILDS: Build[] = [
     image: '/images/space-shuttle.jpg',
   },
   {
-    id: 'medieval-castle-house-layout',
-    name: 'Medieval Castle House',
-    category: 'Layouts',
-    difficulty: 'Medium',
-    creator: 'BuildGuides',
-    sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/images/bg_medieval_castle_house-layout.jpg',
-  },
-  {
-    id: 'cozy-barrel-house-layout',
-    name: 'Cozy Barrel House',
+    id: 'layout-modern-starter',
+    name: 'Modern Starter House',
     category: 'Layouts',
     difficulty: 'Easy',
-    creator: 'BuildGuides',
-    sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/images/bg_cozy_barrel-layout.jpg',
+    sourceUrl: 'https://www.grabcraft.com/',
+    image: '/images/layout-modern-starter-house.jpg',
   },
   {
-    id: 'medieval-castle-layout',
-    name: 'Medieval Castle',
+    id: 'layout-cozy-family',
+    name: 'Cozy Family Home',
     category: 'Layouts',
-    difficulty: 'Hard',
-    creator: 'BuildGuides',
-    sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/images/bg_medieval_castle-layout.jpg',
+    difficulty: 'Easy',
+    sourceUrl: 'https://www.grabcraft.com/',
+    image: '/images/layout-cozy-family-home.jpg',
   },
   {
-    id: 'small-watchtower-layout',
-    name: 'Small Watchtower',
+    id: 'layout-modern-villa',
+    name: 'Modern Villa with Pool',
     category: 'Layouts',
     difficulty: 'Medium',
-    creator: 'BuildGuides',
-    sourceUrl: SOURCE_BUILDGUIDES,
-    image: '/images/bg_watchtower-layout.jpg',
+    sourceUrl: 'https://www.grabcraft.com/',
+    image: '/images/layout-modern-villa-with-pool.jpg',
+  },
+  {
+    id: 'layout-survival-base',
+    name: 'Compact Survival Base',
+    category: 'Layouts',
+    difficulty: 'Easy',
+    sourceUrl: 'https://www.grabcraft.com/',
+    image: '/images/layout-compact-survival-base.jpg',
+  },
+  {
+    id: 'layout-medieval-cottage',
+    name: 'Medieval Cottage',
+    category: 'Layouts',
+    difficulty: 'Medium',
+    sourceUrl: 'https://www.grabcraft.com/',
+    image: '/images/layout-medieval-cottage.jpg',
+  },
+  {
+    id: 'layout-large-mansion',
+    name: 'Large Mansion',
+    category: 'Layouts',
+    difficulty: 'Hard',
+    sourceUrl: 'https://www.grabcraft.com/',
+    image: '/images/layout-large-mansion.jpg',
   },
 ]
